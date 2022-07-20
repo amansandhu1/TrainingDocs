@@ -1,0 +1,4 @@
+Practice CheckBoxes using https://demoqa.com/radio-button
+Practice this form which has dropdownlist https://cosmocode.io/automation-practice/
+
+Refer Notes for more information.
