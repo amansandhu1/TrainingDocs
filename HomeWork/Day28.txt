@@ -1,0 +1,2 @@
+Find an approach to get yyyyMMddhhmmss in the form of string using some java utitilies
+attach above string in filename and capture screenshot.
