@@ -1,0 +1,22 @@
+Create a Java class
+Create a method for Wikipedia Search
+Add @Test annotation for Wikipedia search method
+Also Add below code in the same java class
+@BeforeMethod
+public void sample1(){
+  Sysout.out.println("This is sample1 method and used @BeforeMethod Annottaion");
+}
+@AfterMethod
+public void sample2(){
+  Sysout.out.println("This is sample1 method and used @AfterMethod Annottaion");
+}
+
+Run your script and verify your console log.
+Please read Notes and understand below annotations of TestNG, you can practice.
+1.	@BeforeTest
+2.	@BeforeMethod
+3.	@Test (You know this already)
+4.	@AfterMethod
+5.	@AfterTest
+
+Note: I will explain @BeforeSuite and @AfterSuite methods.
