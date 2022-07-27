@@ -1,0 +1,3 @@
+Create two Java classes and add couple of Testcases using @Test Annotation
+Add priority parameter in @Test annotation like @Test(priority = 1)
+Create suite XML and call above java classes
