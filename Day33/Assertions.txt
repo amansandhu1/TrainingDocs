@@ -1,0 +1,47 @@
+package day32;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class RegressionTests {
+	WebDriver driver = null;
+	
+	@Test(groups= {"smoke"})
+	public void RegressionTestCase1() throws InterruptedException {
+		driver.get("http://www.google.co.in");
+		WebElement txtSearch;
+		txtSearch = driver.findElement(By.xpath("//input[@name='q']"));
+		txtSearch.sendKeys("Latest Samsung mobile phones" + Keys.ENTER);
+		Thread.sleep(4000);
+		
+		// Hard Assertions - if failed stop executing remaining code in that method
+		 Assert.assertTrue(driver.getTitle().contains("Iphone"));
+		 
+		 System.out.println("hello friends");
+		 System.out.println("Hello world");
+	}
+	
+	@BeforeMethod
+	public void setup() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		
+	}
+	
+	@AfterMethod
+	public void tearDown() {
+		driver.close();
+		driver.quit();
+	}	
+	
+}
