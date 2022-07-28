@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionTesting" verbose="2">
+	<listeners>
+		<listener class-name="com.homeloans.pages.ScreenshotListener"></listener>
+	</listeners>
+	<test name="Google">
+		<classes>
+			<class name="com.homeloans.pages.RegressionTests" />
+		</classes>
+	</test>
+</suite>
