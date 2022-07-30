@@ -1,0 +1,5 @@
+Used BDD approach
+Used Page Object Model
+Used Page Factory Desgin Pattern
+Used Modular driven approach
+Used Junit for runner class
