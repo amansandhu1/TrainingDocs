@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="888" started-at="2022-08-02T23:40:13 IST" finished-at="2022-08-02T23:40:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="888" started-at="2022-08-02T23:40:13 IST" finished-at="2022-08-02T23:40:14 IST">
+      <class name="practice.ExcelDemo">
+        <test-method status="PASS" signature="demo()[pri:0, instance:practice.ExcelDemo@687080dc]" name="demo" duration-ms="835" started-at="2022-08-02T23:40:13 IST" finished-at="2022-08-02T23:40:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- practice.ExcelDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
