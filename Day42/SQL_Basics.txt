@@ -1,0 +1,23 @@
+SQL
+
+Databases
+1. DBMS, 2. RDBMS, 3. Non Relation DBs
+
+DBMS:
+	DBase
+	Foxpro
+RDBMS
+	Oracle
+	SQL Server
+	Sybase
+	Ingress
+
+Non Relation
+	Mongo DB
+
+SQL - Structured Query Language
+	DDL - Create, Alter, Drop
+	DML - Select, Update, Delete, Insert, where, group by, order by, sum, average, having, Joins
+	DCL - grant, revoke, transaction
+
+https://www.mycompiler.io/new/sql
