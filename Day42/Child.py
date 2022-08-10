@@ -12,6 +12,3 @@ class Savings(Bank):
         print(self.first_name + ' ' + self.last_name)
         print("Account Type: " + self.acct_type)
 
-
-s1 = Savings("CD Account")
-s1.display()
