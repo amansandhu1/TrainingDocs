@@ -1,0 +1,16 @@
+How to start Selenium in Python
+1. Install Selenium
+pip install selenium
+2. Install WebDriver Manager
+pip install webdriver-manager
+
+Note: You can also install packages from PyCharm File Menu > Settings > Python Interpreter then click on + button to install packages (just like installing packages from Eclipse Marketplace)
+
+Note: Refer below link for more info on pip command
+https://pip.pypa.io/en/stable/cli/pip_install/
+
+Python Selenium Identifying elements:
+https://selenium-python.readthedocs.io/locating-elements.html
+
+assert in python
+https://www.programiz.com/python-programming/assert-statement
