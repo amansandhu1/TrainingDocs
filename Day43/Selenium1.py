@@ -12,5 +12,6 @@ search.send_keys("New James Bond Movies")
 search.send_keys(Keys.ENTER)
 
 print(driver.current_url)
+print(driver.title)
 driver.close()
 driver.quit()
