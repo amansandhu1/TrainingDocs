@@ -1,0 +1,4 @@
+Attached Maven project zip for your reference.
+It has surefire plugin to run testng XMl from Maven.
+Download zip into your local
+Unzip and import into your eclipse.
